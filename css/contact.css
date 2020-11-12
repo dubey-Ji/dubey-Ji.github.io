@@ -1,0 +1,45 @@
+.col-1 h2, .col-1 label, .col-1 input {
+    display: block;
+}
+
+.contact-head {
+    color: #495762;
+    font-size: 3rem;
+    font-family: Montserrat, Tahoma, sans-serif;
+    margin-bottom: 1em;
+    letter-spacing: 1.5px;
+}
+
+.contact-label {
+    margin-top: 1em;
+    color: #495762;
+    font-family: "Karla", Tahoma, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.contact-field {
+    margin-top: 0.5em;
+    background-color: #e8edf1;
+    width: 200px;
+    height: 30px;
+    border: 0;
+    padding: 0.5em;
+}
+
+.comment-field {
+    margin-top: 0.5em;
+    background-color: #e8edf1;
+    border: 0;
+    padding: 0.5em;
+}
+
+hr {
+    border: 0.1px solid #e8edf1;
+}
+
+@media (max-width: 919px) {
+    .contact-field, .comment-field {
+        max-width: 100%;
+    }
+}

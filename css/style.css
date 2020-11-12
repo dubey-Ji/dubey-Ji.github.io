@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* General */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    border: 0.001rem solid #ccd4db;
+}
+
+.nav-hr {
+    display: none;
+}
+
+/* For Mobile */
+
+/* Navbar */
+
+.navbar-header {
+    background-color: #ccd4db;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.5rem;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    
+}
+
+.menu-toggle {
+    cursor: pointer;
+}
+
+.menu-toggle::after {
+    content: 'Menu';
+    padding-left: 0.5em;
+    font-size: 1.5rem;
+    color: #495762;
+    font-family: Montserrat, Tahoma, sans-serif;
+}
+.menu {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.link a {
+    font-size: 1rem;
+    color: #495762;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+
+.link {
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+.link-social {
+    padding-top: 1em;
+}
+
+.link-social .social-icons {
+    padding: 0 0.5em;
+    color: #ccd4db;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-top: 1em;
+    border-bottom: 1px solid #ccd4db
+}
+
+.header-content {
+    padding: 2em;
+    font-family: Montserrat, Tahoma, sans-serif;
+    
+}
+
+.header-title {
+    text-transform: uppercase;
+    color: #495762;
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+}
+
+.header-description {
+    color: #495762;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-top: 0.25em;
+}
+
+/* Main Content */
+main {
+    max-width: 90%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    margin-top: 3em;
+}
+
+/* Col-1 */
+
+.blog-content {
+    margin-top: 2em;
+}
+
+.blog-title {
+    color: #495762;
+    font-family: Montserrat, Tahoma, sans-serif;
+}
+
+.col img {
+    max-width: 100%;
+    height: auto;
+    padding: 1em 0;
+}
+
+.blog-description {
+    font-family: "Karla", Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #495762;
+}
+
+.posted-on {
+    padding-top: 1em;
+}
+
+.posted-on a {
+    padding-right: 1em;
+    color: #495762;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: "Karla", Tahoma, sans-serif;
+}
+
+/* Col-2 */
+.category-head, .tags-head {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #495762;
+    letter-spacing: 1.5px;
+    font-family: Montserrat, Tahoma, sans-serif;
+}
+
+.category-link {
+    margin-top: 1em;
+    position: relative;
+}
+
+.category-items {
+    padding: 1em 0;
+    border-top: 1px solid #ccd4db;
+}
+
+.category-items a {
+    color: #495762;
+    font-weight: bold;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    font-family: "Karla", Tahoma, sans-serif;
+}
+
+.tags-head {
+    margin-top: 3em;
+}
+
+.tags-link, .search {
+    margin-top: 2em;
+}
+
+.search input {
+    padding: 0.5em;
+}
+
+.tags-link a {
+    color: #495762;
+    font-family: "Karla", Tahoma, sans-serif;
+}
+
+.highlight {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.search input {
+    height: 35px;
+    border: 1px solid #ccd4db;
+}
+
+.search input:focus {
+    border: 1px solid #abb4bb;
+}
+
+.recent-posts-title, .content p a {
+    color: #495762;
+}
+/* Col-3 */
+.content {
+    display: flex;
+    padding-top: 1em;
+}
+
+.content img {
+    max-width: 30%;
+    height: auto;
+    padding: 0;
+}
+
+.content p {
+    padding-left: 1em;
+}
+
+.content-3 {
+    margin-bottom: 2em;
+}
+
+/* footer */
+
+footer {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.ftr-head h4 {
+    color: #495762;
+    font-size: 14px;
+    font-family: Montserrat, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.ftr-description {
+    padding-top: 1em;
+    color: #495762;
+    font-family: "Karla", Tahoma, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.ftr-col-2, .ftr-col-3 {
+    margin-top: 2em;
+}
+
+.ftr-subscription h4 {
+    color: #495762;
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.ftr-subscription input {
+    margin-top: 1.5em;
+    padding: 1em;
+}
+
+.ftr-subscription button {
+    padding: 0.5em;
+    background-color: #ccd4db;
+    color: #495762;
+}
+
+.ftr-social-link {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.ftr-social-link .social-icons {
+    padding-right: 1em;
+    color: #abb4bb;
+}
+
+/* Credit */
+
+.credit {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.credit p {
+    text-align: center;
+    color: #495762;
+    text-transform: capitalize;
+}
+
+/* For tablet and desktop */
+
+@media (min-width: 920px) {
+    .navbar-header {
+        display: none;
+    }
+
+    .menu {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-menu {
+        display: flex;
+    }
+
+    .navbar-menu .link {
+        border: 0;
+        padding-right: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 0;
+    }
+
+    .link-social .social-icons {
+        padding-left: 1em;
+        padding-right: 0;
+    }
+
+    .nav-hr {
+        display: block;
+    }
+
+    .header-title{
+        font-size: 4rem;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid pink; */
+    }
+
+    .col {
+        margin-bottom: 1em;
+
+    }
+
+    .col-1 {
+        max-width: 48%;
+        /* border: 1px solid red; */
+    }
+
+    .blog-content {
+        margin-top: 0;
+    }
+
+    .col-2, .col-3 {
+        max-width: 23%;
+        position: sticky;
+        /* border: 1px solid black; */
+    }
+
+    footer {
+        display: flex;
+        margin-bottom: 2em;
+        justify-content: space-between;
+    }
+
+    .ftr-col-1, .ftr-col-2, .ftr-col-3 {
+        max-width: 31.33%;
+        
+    }
+
+    .ftr-col-2, .ftr-col-3 {
+        margin-top: 0;
+    }
+
+
+}

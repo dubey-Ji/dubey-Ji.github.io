@@ -1,0 +1,16 @@
+.col-1 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.col-1 p {
+    color: #495762;
+    font-family: "Karla", Tahoma, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
